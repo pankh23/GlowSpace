@@ -1,50 +1,10 @@
-/* You can keep custom styles here that aren't easily achieved with Tailwind */
+/* App.css - Main application styles */
+
 .App {
+  text-align: center;
   min-height: 100vh;
-}
-
-.navbar {
-  background-color: #3B82F6;
-  color: white;
-  padding: 1rem 1.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.nav-brand a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-links {
   display: flex;
-  gap: 1rem;
-  list-style: none;
-  margin-top: 0.5rem;
+  flex-direction: column;
 }
 
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.nav-links a:hover {
-  color: #e5e7eb;
-}
-
-.home {
-  padding: 2rem;
-}
-
-.home h1 {
-  font-size: 2.25rem;
-  font-weight: bold;
-  color: #1f2937;
-  margin-bottom: 1rem;
-}
-
-.home p {
-  color: #4b5563;
-} 
+/* Add additional app-specific styles here */ 
